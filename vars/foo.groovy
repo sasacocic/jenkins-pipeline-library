@@ -3,5 +3,6 @@
 
 
 def call(){
-    println "hello, world"
+    def mochiFile = readFile "Mochifile"
+    println "Mochifile read:\n${mochiFile}"
 }
